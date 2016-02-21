@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "udp_comms")
+set(udp_comms_MAINTAINER "clm <clm@todo.todo>")
+set(udp_comms_DEPRECATED "")
+set(udp_comms_VERSION "0.0.0")
+set(udp_comms_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(udp_comms_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(udp_comms_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,2 @@
+network_comms
+-DCATKIN_DEVEL_PREFIX=/home/clm/Aran/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/clm/Aran/catkin_ws/install
