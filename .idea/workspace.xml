@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="536e96f0-3dbf-470d-b39c-b7b49da5b9a1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nri/src/watch_interface_flipback.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nri/src/watch_interface_multi_mode.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/network_comms/src/udp_listen.py" afterPath="$PROJECT_DIR$/src/network_comms/src/udp_listen.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nri/src/watch_interface.py" afterPath="$PROJECT_DIR$/src/nri/src/watch_interface.py" />
     </list>
     <ignored path="catkin_ws.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="udp_listen.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="udp_listen.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/network_comms/src/udp_listen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6227348">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="32" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="32" />
               <folding>
                 <element signature="e#23#36#0" expanded="true" />
               </folding>
@@ -43,10 +46,30 @@
         <entry file="file://$PROJECT_DIR$/src/nri/src/watch_interface.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
               <folding>
                 <element signature="e#23#36#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="watch_interface_flipback.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nri/src/watch_interface_flipback.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="watch_interface_multi_mode.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/nri/src/watch_interface_multi_mode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.830313">
+              <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,8 +83,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build/nri/catkin_generated/installspace/nriConfig.cmake" />
-        <option value="$PROJECT_DIR$/src/nri/src/watch_interface.py" />
         <option value="$PROJECT_DIR$/src/network_comms/src/udp_listen.py" />
+        <option value="$PROJECT_DIR$/src/nri/src/watch_interface.py" />
+        <option value="$PROJECT_DIR$/src/nri/src/watch_interface_flipback.py" />
+        <option value="$PROJECT_DIR$/src/nri/src/watch_interface_multi_mode.py" />
       </list>
     </option>
   </component>
@@ -179,7 +204,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.udp_listen">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/nri/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.watch_interface_multi_mode">
     <configuration default="false" name="udp_listen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -194,6 +224,57 @@
       <module name="catkin_ws" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/network_comms/src/udp_listen.py" />
       <option name="PARAMETERS" value="192.168.43.218 21234" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="watch_interface" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/nri/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="catkin_ws" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/nri/src/watch_interface.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="watch_interface_flipback" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/nri/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="catkin_ws" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/nri/src/watch_interface_flipback.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="watch_interface_multi_mode" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/nri/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="catkin_ws" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/nri/src/watch_interface_multi_mode.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
@@ -319,12 +400,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.udp_listen" />
+      <item index="1" class="java.lang.String" itemvalue="Python.watch_interface" />
+      <item index="2" class="java.lang.String" itemvalue="Python.watch_interface_flipback" />
+      <item index="3" class="java.lang.String" itemvalue="Python.watch_interface_multi_mode" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.udp_listen" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.watch_interface_multi_mode" />
+        <item index="1" class="java.lang.String" itemvalue="Python.watch_interface_flipback" />
+        <item index="2" class="java.lang.String" itemvalue="Python.udp_listen" />
+        <item index="3" class="java.lang.String" itemvalue="Python.watch_interface" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +438,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456243448519</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated UDP message format">
+      <created>1456253699594</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1456253699594</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -374,7 +467,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -402,7 +495,8 @@
     <MESSAGE value="test commit from pycharm" />
     <MESSAGE value="test commit from pycharm 2" />
     <MESSAGE value="reformat for ROS integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="reformat for ROS integration" />
+    <MESSAGE value="updated UDP message format" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated UDP message format" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -426,23 +520,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nri/src/watch_interface.py">
+    <entry file="file://$PROJECT_DIR$/src/network_comms/src/udp_listen.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="32" />
           <folding>
             <element signature="e#23#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/network_comms/src/udp_listen.py">
+    <entry file="file://$PROJECT_DIR$/src/nri/src/watch_interface_flipback.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6227348">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nri/src/watch_interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
           <folding>
             <element signature="e#23#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nri/src/watch_interface_multi_mode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.830313">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

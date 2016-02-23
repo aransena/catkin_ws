@@ -6,6 +6,7 @@ import socket
 import sys
 
 from std_msgs.msg import String as ros_string
+#from std_msgs.msg import Int8MultiArray as ros_intArray
 
 
 def udp_Connect(udp_ip, udp_port):
@@ -31,10 +32,9 @@ def broadcast_UDP(udp_ip, udp_port):
 	while True:
 		data, addr = udp_socket.recvfrom(1024)  # buffer size is 1024 bytes
 		inp = data.split(",")
-
 		inp = map(int, inp[:-1])
 		print "received message:", inp
-		pub.publish(data)
+		pub.publish(str(inp))
 
 
 if __name__ == "__main__":

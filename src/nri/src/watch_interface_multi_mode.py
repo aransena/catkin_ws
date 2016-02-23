@@ -25,6 +25,7 @@ def get_twist_msg(inp, twist_mem):
 	swipeD = inp[7]
 	tap = inp[8]
 	longPress = inp[9]
+	mode = inp[10]
 
 	twist = Twist()
 
@@ -48,11 +49,17 @@ def get_twist_msg(inp, twist_mem):
 			twist_mem.angular_z = 0
 
 		elif bezelL == 1:
-			twist_mem.angular_z += 0.1
+			if mode == 1:
+				twist_mem.angular_z += 0.1
+			else:
+				twist_mem.angular_z = 0.7
 			twist.angular.z = twist_mem.angular_z
 
 		elif bezelR == 1:
-			twist_mem.angular_z -= 0.1
+			if mode == 1:
+				twist_mem.angular_z -= 0.1
+			else:
+				twist_mem.angular_z = -0.7
 			twist.angular.z = twist_mem.angular_z
 
 		elif tap == 1:

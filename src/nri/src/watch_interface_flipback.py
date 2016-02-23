@@ -48,12 +48,12 @@ def get_twist_msg(inp, twist_mem):
 			twist_mem.angular_z = 0
 
 		elif bezelL == 1:
-			twist_mem.angular_z += 0.1
-			twist.angular.z = twist_mem.angular_z
+			#twist_mem.angular_z += 0.1
+			twist.angular.z = 0.5#twist_mem.angular_z
 
 		elif bezelR == 1:
-			twist_mem.angular_z -= 0.1
-			twist.angular.z = twist_mem.angular_z
+			#twist_mem.angular_z -= 0.1
+			twist.angular.z = -0.5#twist_mem.angular_z
 
 		elif tap == 1:
 			twist_mem.angular_z = 0
