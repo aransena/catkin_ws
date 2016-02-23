@@ -1,8 +1,0 @@
-prefix=/home/clm/Aran/catkin_ws/install
-
-Name: udpComms
-Description: Description of udpComms
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/clm/Aran/catkin_ws/install/lib 
-Requires: 
