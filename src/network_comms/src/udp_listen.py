@@ -22,15 +22,18 @@ def udp_Connect(udp_ip, udp_port):
 def broadcast_UDP(udp_ip, udp_port):
 	pub = rospy.Publisher('udp_msgs', ros_string)
 	rospy.init_node('udp_comms', anonymous=True)
-	rospy.loginfo("udp_listen.py: node started")
+	rospy.loginfo("udp_listen.py: udp_comms node started")
 
 	udp_socket = udp_Connect(UDP_IP, UDP_PORT)
 	#except Exception, e:
 	#	rospy.logerr("udp_listen.py: FAILED connecting to IP: %s Port: %d \t error: %s", udp_ip, udp_port, e)
 
 	while True:
-		data, addr = udp_socket.recvfrom(2048)  # buffer size is 1024 bytes
-		print "received message:", data
+		data, addr = udp_socket.recvfrom(1024)  # buffer size is 1024 bytes
+		inp = data.split(",")
+
+		inp = map(int, inp[:-1])
+		print "received message:", inp
 		pub.publish(data)
 
 
