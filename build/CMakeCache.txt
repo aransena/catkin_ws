@@ -238,6 +238,9 @@ catkin_DIR:PATH=/opt/ros/hydro/share/catkin/cmake
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/hydro/share/cpp_common/cmake
 
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/hydro/share/geometry_msgs/cmake
+
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/clm/Aran/catkin_ws/build/gtest
 
@@ -274,6 +277,12 @@ network_comms_BINARY_DIR:STATIC=/home/clm/Aran/catkin_ws/build/network_comms
 
 //Value Computed by CMake
 network_comms_SOURCE_DIR:STATIC=/home/clm/Aran/catkin_ws/src/network_comms
+
+//Value Computed by CMake
+nri_BINARY_DIR:STATIC=/home/clm/Aran/catkin_ws/build/nri
+
+//Value Computed by CMake
+nri_SOURCE_DIR:STATIC=/home/clm/Aran/catkin_ws/src/nri
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/hydro/share/rosconsole/cmake
@@ -418,7 +427,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=3
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

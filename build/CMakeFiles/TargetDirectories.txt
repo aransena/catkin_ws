@@ -1,5 +1,8 @@
 /home/clm/Aran/catkin_ws/build/CMakeFiles/clean_test_results.dir
 /home/clm/Aran/catkin_ws/build/CMakeFiles/doxygen.dir
+/home/clm/Aran/catkin_ws/build/nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+/home/clm/Aran/catkin_ws/build/nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+/home/clm/Aran/catkin_ws/build/nri/CMakeFiles/geometry_msgs_generate_messages_py.dir
 /home/clm/Aran/catkin_ws/build/gtest/CMakeFiles/gtest.dir
 /home/clm/Aran/catkin_ws/build/gtest/CMakeFiles/gtest_main.dir
 /home/clm/Aran/catkin_ws/build/network_comms/CMakeFiles/roscpp_generate_messages_cpp.dir

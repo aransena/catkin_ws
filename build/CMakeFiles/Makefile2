@@ -554,6 +554,116 @@ clean: network_comms/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory nri
+
+# Convenience name for "all" pass in the directory.
+nri/all:
+.PHONY : nri/all
+
+# Convenience name for "clean" pass in the directory.
+nri/clean: nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+nri/clean: nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+nri/clean: nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : nri/clean
+
+# Convenience name for "preinstall" pass in the directory.
+nri/preinstall:
+.PHONY : nri/preinstall
+
+#=============================================================================
+# Target rules for target nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/clm/Aran/catkin_ws/build/CMakeFiles 
+	@echo "Built target geometry_msgs_generate_messages_cpp"
+.PHONY : nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clm/Aran/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clm/Aran/catkin_ws/build/CMakeFiles 0
+.PHONY : nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# clean rule for target.
+nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/clm/Aran/catkin_ws/build/CMakeFiles 
+	@echo "Built target geometry_msgs_generate_messages_lisp"
+.PHONY : nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clm/Aran/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clm/Aran/catkin_ws/build/CMakeFiles 0
+.PHONY : nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# clean rule for target.
+nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target nri/CMakeFiles/geometry_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/clm/Aran/catkin_ws/build/CMakeFiles 
+	@echo "Built target geometry_msgs_generate_messages_py"
+.PHONY : nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clm/Aran/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clm/Aran/catkin_ws/build/CMakeFiles 0
+.PHONY : nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : geometry_msgs_generate_messages_py
+
+# clean rule for target.
+nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

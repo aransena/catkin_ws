@@ -14,9 +14,13 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "catkin_generated/order_packages.cmake"
   "network_comms/catkin_generated/ordered_paths.cmake"
   "network_comms/catkin_generated/package.cmake"
+  "nri/catkin_generated/ordered_paths.cmake"
+  "nri/catkin_generated/package.cmake"
   "/home/clm/Aran/catkin_ws/src/CMakeLists.txt"
   "/home/clm/Aran/catkin_ws/src/network_comms/CMakeLists.txt"
   "/home/clm/Aran/catkin_ws/src/network_comms/package.xml"
+  "/home/clm/Aran/catkin_ws/src/nri/CMakeLists.txt"
+  "/home/clm/Aran/catkin_ws/src/nri/package.xml"
   "/opt/ros/hydro/share/catkin/cmake/../package.xml"
   "/opt/ros/hydro/share/catkin/cmake/all.cmake"
   "/opt/ros/hydro/share/catkin/cmake/assert.cmake"
@@ -74,6 +78,9 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/hydro/share/catkin/cmake/tools/rt.cmake"
   "/opt/ros/hydro/share/cpp_common/cmake/cpp_commonConfig-version.cmake"
   "/opt/ros/hydro/share/cpp_common/cmake/cpp_commonConfig.cmake"
+  "/opt/ros/hydro/share/geometry_msgs/cmake/geometry_msgs-msg-extras.cmake"
+  "/opt/ros/hydro/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake"
+  "/opt/ros/hydro/share/geometry_msgs/cmake/geometry_msgsConfig.cmake"
   "/opt/ros/hydro/share/message_runtime/cmake/message_runtimeConfig-version.cmake"
   "/opt/ros/hydro/share/message_runtime/cmake/message_runtimeConfig.cmake"
   "/opt/ros/hydro/share/rosconsole/cmake/rosconsole-extras.cmake"
@@ -134,6 +141,7 @@ SET(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "network_comms/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "nri/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -153,4 +161,7 @@ SET(CMAKE_DEPEND_INFO_FILES
   "network_comms/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "network_comms/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "network_comms/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake"
+  "nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake"
+  "nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake"
+  "nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake"
   )
