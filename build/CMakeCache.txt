@@ -308,18 +308,6 @@ rostime_DIR:PATH=/opt/ros/hydro/share/rostime/cmake
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/hydro/share/std_msgs/cmake
 
-//Value Computed by CMake
-udpComms_BINARY_DIR:STATIC=/home/clm/Aran/catkin_ws/build/udpComms
-
-//Value Computed by CMake
-udpComms_SOURCE_DIR:STATIC=/home/clm/Aran/catkin_ws/src/udpComms
-
-//Value Computed by CMake
-udp_comms_BINARY_DIR:STATIC=/home/clm/Aran/catkin_ws/build/udp_comms
-
-//Value Computed by CMake
-udp_comms_SOURCE_DIR:STATIC=/home/clm/Aran/catkin_ws/src/udp_comms
-
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/hydro/share/xmlrpcpp/cmake
 
