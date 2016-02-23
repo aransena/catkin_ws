@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "nri")
+set(nri_MAINTAINER "clm <clm@todo.todo>")
+set(nri_DEPRECATED "")
+set(nri_VERSION "0.0.0")
+set(nri_BUILD_DEPENDS "geometry_msgs" "roscpp" "rospy" "std_msgs")
+set(nri_RUN_DEPENDS "geometry_msgs" "roscpp" "rospy" "std_msgs")
+set(nri_BUILDTOOL_DEPENDS "catkin")
