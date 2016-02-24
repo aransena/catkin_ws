@@ -44,6 +44,7 @@ def get_twist_msg(inp, twist_mem):
 		else:
 			twist.linear.x = twist_mem.linear_x
 
+
 		if stop_cmd == 1:
 			twist.angular.z = 0
 			twist_mem.angular_z = 0
@@ -67,7 +68,13 @@ def get_twist_msg(inp, twist_mem):
 			twist.angular.z = twist_mem.angular_z
 
 		else:
-			twist.angular.z = twist_mem.angular_z
+			if mode == 1:
+				twist.angular.z = twist_mem.angular_z
+			elif mode == 2:
+				twist.angular.z = 0
+			else:
+				twist.angular.z = 0
+
 
 
 		twist.linear.y = 0
