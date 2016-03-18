@@ -38,18 +38,18 @@ def broadcast_UDP(udp_ip, udp_port):
 
 
 if __name__ == "__main__":
-	args = rospy.myargv(argv=sys.argv)
-	if 1 < len(args) < 3:
-		print "usage: my_node.py UDP_IP UDP_PORT"
-	elif len(args) == 3:
-		UDP_IP = str(args[1])
-		UDP_PORT = int(args[2])
-	elif len(args) == 1:
-		UDP_IP = "192.168.43.218"  # "192.168.43.12" #"127.0.0.1"
-		UDP_PORT = 21234
-	else:
-		print "failed to launch node - usage: `udp_listen.py UDP_IP UDP_PORT` OR `udp_listen.py`"
-		sys.exit()
+	#args = rospy.myargv(argv=sys.argv)
+	#if 1 < len(args) < 3:
+	#	print "usage: my_node.py UDP_IP UDP_PORT"
+	#elif len(args) == 3:
+	#	UDP_IP = str(args[1])
+	#	UDP_PORT = int(args[2])
+	UDP_IP = "192.168.1.102"  # "192.168.43.12" #"127.0.0.1"
+	#elif len(args) == 1:
+	UDP_PORT = 21234
+	#else:
+	#print "failed to launch node - usage: `udp_listen.py UDP_IP UDP_PORT` OR `udp_listen.py`"
+	#	sys.exit()
 	try:
 		broadcast_UDP(UDP_IP, UDP_PORT)
 	except rospy.ROSInterruptException, e:

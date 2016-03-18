@@ -1,8 +1,8 @@
-prefix=/home/clm/Aran/catkin_ws/devel
+prefix=/home/aransena/catkin_ws/devel
 
 Name: network_comms
 Description: Description of network_comms
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/clm/Aran/catkin_ws/devel/lib 
+Libs: -L/home/aransena/catkin_ws/devel/lib 
 Requires: 

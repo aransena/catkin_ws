@@ -90,7 +90,9 @@ def watch_interface(data, twist_mem):
 	inp = map(int,str(data.data)[1:-1].split(",")) # converts string to int list
 
 	#pub = rospy.Publisher('cmd_vel', Twist)
-	pub = rospy.Publisher('robbie/cmd_vel', Twist)
+	#pub = rospy.Publisher('robbie/cmd_vel', Twist)
+	pub = rospy.Publisher('/turtle1/cmd_vel', Twist)
+
 
 	twist = Twist()
 
