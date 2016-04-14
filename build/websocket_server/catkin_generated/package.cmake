@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "websocket_server")
+set(websocket_server_MAINTAINER "aransena <aransena@todo.todo>")
+set(websocket_server_DEPRECATED "")
+set(websocket_server_VERSION "0.0.0")
+set(websocket_server_BUILD_DEPENDS "rospy")
+set(websocket_server_RUN_DEPENDS "rospy")
+set(websocket_server_BUILDTOOL_DEPENDS "catkin")

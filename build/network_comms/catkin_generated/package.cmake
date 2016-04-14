@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "network_comms")
+set(network_comms_MAINTAINER "clm <clm@todo.todo>")
+set(network_comms_DEPRECATED "")
+set(network_comms_VERSION "0.0.0")
+set(network_comms_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(network_comms_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(network_comms_BUILDTOOL_DEPENDS "catkin")

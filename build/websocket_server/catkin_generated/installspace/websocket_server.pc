@@ -1,0 +1,8 @@
+prefix=/home/aransena/catkin_ws/install
+
+Name: websocket_server
+Description: Description of websocket_server
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/aransena/catkin_ws/install/lib 
+Requires: 

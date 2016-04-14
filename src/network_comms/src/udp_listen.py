@@ -31,8 +31,9 @@ def broadcast_UDP(udp_ip, udp_port):
 
 	while True:
 		data, addr = udp_socket.recvfrom(1024)  # buffer size is 1024 bytes
+		print data, " received"
 		inp = data.split(",")
-		inp = map(int, inp[:-1])
+		inp = map(int, inp)
 		print "received message:", inp
 		pub.publish(str(inp))
 

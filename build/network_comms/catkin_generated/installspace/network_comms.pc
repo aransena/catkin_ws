@@ -1,0 +1,8 @@
+prefix=/home/aransena/catkin_ws/install
+
+Name: network_comms
+Description: Description of network_comms
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/aransena/catkin_ws/install/lib 
+Requires: 

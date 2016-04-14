@@ -2,6 +2,7 @@
 
 import roslib
 import rospy
+import json
 
 from geometry_msgs.msg import Twist
 from std_msgs.msg import String as ros_string
@@ -26,7 +27,6 @@ def get_twist_msg(inp, twist_mem):
 	tap = inp[8]
 	longPress = inp[9]
 	mode = inp[10]
-	fingerDown = inp[11]
 
 	twist = Twist()
 
@@ -44,7 +44,6 @@ def get_twist_msg(inp, twist_mem):
 
 		else:
 			twist.linear.x = twist_mem.linear_x
-
 
 		if stop_cmd == 1:
 			twist.angular.z = 0
@@ -76,8 +75,6 @@ def get_twist_msg(inp, twist_mem):
 			else:
 				twist.angular.z = 0
 
-
-
 		twist.linear.y = 0
 		twist.linear.z = 0
 		twist.angular.x = 0
@@ -87,46 +84,26 @@ def get_twist_msg(inp, twist_mem):
 	return twist
 
 def watch_interface(data, twist_mem):
-
+	data = json.load(data)
+	print data
 	inp = map(int,str(data.data)[1:-1].split(",")) # converts string to int list
-
 	#pub = rospy.Publisher('cmd_vel', Twist)
 	#pub = rospy.Publisher('robbie/cmd_vel', Twist)
 	pub = rospy.Publisher('/turtle1/cmd_vel', Twist)
-
-
 	twist = Twist()
-
 	twist = get_twist_msg(inp, twist_mem)
-
 	if not rospy.is_shutdown():
-		notice_str = "watch_interface: Sending cmd_vel %s" % rospy.get_time()
-		#rospy.loginfo(notice_str)
 		pub.publish(twist)
 
-		# pub2.publish(0)
-		#rate.sleep()
 
 
 def listener():
 	rospy.init_node('watch_interface', anonymous=True)
 	tm = twistMessage()
-	rospy.Subscriber("udp_msgs", ros_string, watch_interface, tm)
+	#rospy.Subscriber("udp_msgs", ros_string, watch_interface, tm)
+	rospy.Subscriber("websocket_server_msgs", ros_string, watch_interface, tm)
 
 	rospy.spin()
-
-#	rate = rospy.Rate(10)  # 10hz
-#	while not rospy.is_shutdown():
-		#notice_str = "watch_interface: Sending cmd_vel %s" % rospy.get_time()
-		#rospy.loginfo(notice_str)
-		#pub.publish(twist)
-		# pub2.publish(0)
-		#rate.sleep()
-
-	## code to stop
-	# twist=Twist()
-	# rospy.loginfo("watch_interface: Stopping")
-	# p.publish(twist)
 
 
 if __name__ == "__main__":
