@@ -119,6 +119,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/aransena/catkin_ws/build/gtest/cmake_install.cmake")
   INCLUDE("/home/aransena/catkin_ws/build/network_comms/cmake_install.cmake")
   INCLUDE("/home/aransena/catkin_ws/build/nri/cmake_install.cmake")
+  INCLUDE("/home/aransena/catkin_ws/build/sunset_demo/cmake_install.cmake")
   INCLUDE("/home/aransena/catkin_ws/build/dynamic_tutorials/cmake_install.cmake")
   INCLUDE("/home/aransena/catkin_ws/build/websocket_server/cmake_install.cmake")
 

@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/aransena/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/aransena/catkin_ws/build/CMakeFiles /home/aransena/catkin_ws/build/websocket_server/CMakeFiles/progress.marks
-	cd /home/aransena/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 websocket_server/all
+	cd /home/aransena/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/aransena/catkin_ws/build/CMakeFiles /home/aransena/catkin_ws/build/sunset_demo/CMakeFiles/progress.marks
+	cd /home/aransena/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 sunset_demo/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aransena/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/aransena/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 websocket_server/clean
+	cd /home/aransena/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 sunset_demo/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,12 +136,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/aransena/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 websocket_server/preinstall
+	cd /home/aransena/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 sunset_demo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/aransena/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 websocket_server/preinstall
+	cd /home/aransena/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 sunset_demo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -149,12 +149,27 @@ depend:
 	cd /home/aransena/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/rule:
+	cd /home/aransena/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/rule
+.PHONY : sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+# Convenience name for target.
+_catkin_empty_exported_target: sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/rule
+.PHONY : _catkin_empty_exported_target
+
+# fast build rule for target.
+_catkin_empty_exported_target/fast:
+	cd /home/aransena/catkin_ws/build && $(MAKE) -f sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/build.make sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/build
+.PHONY : _catkin_empty_exported_target/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... _catkin_empty_exported_target"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"

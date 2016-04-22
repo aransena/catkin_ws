@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # sample code from http://iot-projects.com/index.php?id=websocket-a-simple-example
 
 import rospy

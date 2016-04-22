@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "sunset_demo")
+set(sunset_demo_MAINTAINER "aransena <aransena@todo.todo>")
+set(sunset_demo_DEPRECATED "")
+set(sunset_demo_VERSION "0.0.0")
+set(sunset_demo_BUILD_DEPENDS "rospy")
+set(sunset_demo_RUN_DEPENDS "rospy")
+set(sunset_demo_BUILDTOOL_DEPENDS "catkin")

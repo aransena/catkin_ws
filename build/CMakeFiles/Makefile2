@@ -729,6 +729,52 @@ clean: nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory sunset_demo
+
+# Convenience name for "all" pass in the directory.
+sunset_demo/all:
+.PHONY : sunset_demo/all
+
+# Convenience name for "clean" pass in the directory.
+sunset_demo/clean: sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : sunset_demo/clean
+
+# Convenience name for "preinstall" pass in the directory.
+sunset_demo/preinstall:
+.PHONY : sunset_demo/preinstall
+
+#=============================================================================
+# Target rules for target sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir
+
+# All Build rule for target.
+sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) -f sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/build.make sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) -f sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/build.make sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/aransena/catkin_ws/build/CMakeFiles 
+	@echo "Built target _catkin_empty_exported_target"
+.PHONY : sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/all
+
+# Build rule for subdir invocation for target.
+sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aransena/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aransena/catkin_ws/build/CMakeFiles 0
+.PHONY : sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+# Convenience name for target.
+_catkin_empty_exported_target: sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/rule
+.PHONY : _catkin_empty_exported_target
+
+# clean rule for target.
+sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) -f sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/build.make sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+# clean rule for target.
+clean: sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory dynamic_tutorials
 
 # Convenience name for "all" pass in the directory.
@@ -914,43 +960,12 @@ websocket_server/all:
 .PHONY : websocket_server/all
 
 # Convenience name for "clean" pass in the directory.
-websocket_server/clean: websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/clean
+websocket_server/clean:
 .PHONY : websocket_server/clean
 
 # Convenience name for "preinstall" pass in the directory.
 websocket_server/preinstall:
 .PHONY : websocket_server/preinstall
-
-#=============================================================================
-# Target rules for target websocket_server/CMakeFiles/_catkin_empty_exported_target.dir
-
-# All Build rule for target.
-websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/all:
-	$(MAKE) -f websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/build.make websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/depend
-	$(MAKE) -f websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/build.make websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/aransena/catkin_ws/build/CMakeFiles 
-	@echo "Built target _catkin_empty_exported_target"
-.PHONY : websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/all
-
-# Build rule for subdir invocation for target.
-websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aransena/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aransena/catkin_ws/build/CMakeFiles 0
-.PHONY : websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : _catkin_empty_exported_target
-
-# clean rule for target.
-websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	$(MAKE) -f websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/build.make websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/clean
-
-# clean rule for target.
-clean: websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

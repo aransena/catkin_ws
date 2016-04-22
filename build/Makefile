@@ -410,6 +410,19 @@ geometry_msgs_generate_messages_py/fast:
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named _catkin_empty_exported_target
+
+# Build rule for target.
+_catkin_empty_exported_target: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _catkin_empty_exported_target
+.PHONY : _catkin_empty_exported_target
+
+# fast build rule for target.
+_catkin_empty_exported_target/fast:
+	$(MAKE) -f sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/build.make sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/build
+.PHONY : _catkin_empty_exported_target/fast
+
+#=============================================================================
 # Target rules for targets named dynamic_reconfigure_gencfg
 
 # Build rule for target.
@@ -474,19 +487,6 @@ dynamic_tutorials_gencfg/fast:
 	$(MAKE) -f dynamic_tutorials/CMakeFiles/dynamic_tutorials_gencfg.dir/build.make dynamic_tutorials/CMakeFiles/dynamic_tutorials_gencfg.dir/build
 .PHONY : dynamic_tutorials_gencfg/fast
 
-#=============================================================================
-# Target rules for targets named _catkin_empty_exported_target
-
-# Build rule for target.
-_catkin_empty_exported_target: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _catkin_empty_exported_target
-.PHONY : _catkin_empty_exported_target
-
-# fast build rule for target.
-_catkin_empty_exported_target/fast:
-	$(MAKE) -f websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/build.make websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/build
-.PHONY : _catkin_empty_exported_target/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -520,12 +520,12 @@ help:
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
+	@echo "... _catkin_empty_exported_target"
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
 	@echo "... dynamic_reconfigure_generate_messages_lisp"
 	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... dynamic_tutorials_gencfg"
-	@echo "... _catkin_empty_exported_target"
 .PHONY : help
 
 

@@ -7,5 +7,6 @@
 SUBDIRS(gtest)
 SUBDIRS(network_comms)
 SUBDIRS(nri)
+SUBDIRS(sunset_demo)
 SUBDIRS(dynamic_tutorials)
 SUBDIRS(websocket_server)
