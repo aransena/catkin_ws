@@ -31,6 +31,9 @@ class WSHandler(tornado.websocket.WebSocketHandler):
         if message == "USER":
             print "Responding..."
             self.write_message(message)  # + ' OK')
+	if message == "QUIT":
+            self.close()
+
 
     def on_close(self):
         print 'connection closed\n'
