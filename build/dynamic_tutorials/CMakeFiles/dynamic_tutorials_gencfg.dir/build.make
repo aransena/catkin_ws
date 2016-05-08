@@ -53,7 +53,7 @@ dynamic_tutorials/CMakeFiles/dynamic_tutorials_gencfg: /home/aransena/catkin_ws/
 /home/aransena/catkin_ws/devel/include/dynamic_tutorials/tutorialsConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/aransena/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/tutorials.cfg: /home/aransena/catkin_ws/devel/include/dynamic_tutorials/tutorialsConfig.h /home/aransena/catkin_ws/devel/lib/python2.7/dist-packages/dynamic_tutorials/cfg/tutorialsConfig.py"
-	cd /home/aransena/catkin_ws/build/dynamic_tutorials && ../catkin_generated/env_cached.sh /home/aransena/catkin_ws/src/dynamic_tutorials/cfg/tutorials.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/aransena/catkin_ws/devel/share/dynamic_tutorials /home/aransena/catkin_ws/devel/include/dynamic_tutorials /home/aransena/catkin_ws/devel/lib/python2.7/dist-packages/dynamic_tutorials
+	cd /home/aransena/catkin_ws/build/dynamic_tutorials && ../catkin_generated/env_cached.sh /home/aransena/catkin_ws/build/dynamic_tutorials/setup_custom_pythonpath.sh /home/aransena/catkin_ws/src/dynamic_tutorials/cfg/tutorials.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/aransena/catkin_ws/devel/share/dynamic_tutorials /home/aransena/catkin_ws/devel/include/dynamic_tutorials /home/aransena/catkin_ws/devel/lib/python2.7/dist-packages/dynamic_tutorials
 
 /home/aransena/catkin_ws/devel/share/dynamic_tutorials/docs/tutorialsConfig.dox: /home/aransena/catkin_ws/devel/include/dynamic_tutorials/tutorialsConfig.h
 

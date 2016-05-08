@@ -1,0 +1,8 @@
+prefix=/home/aransena/catkin_ws/install
+
+Name: blender_interface
+Description: Description of blender_interface
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/aransena/catkin_ws/install/lib 
+Requires: 

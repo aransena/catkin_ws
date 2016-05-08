@@ -1,2 +1,2 @@
-dynamic_tutorials:network_comms:nri:sunset_demo:websocket_server
+blender_interface:dynamic_tutorials:kinect_aux:network_comms:nri:sunset_demo:websocket_server
 -DCATKIN_DEVEL_PREFIX=/home/aransena/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/aransena/catkin_ws/install -G Unix Makefiles
