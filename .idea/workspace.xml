@@ -2,111 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b14a72be-945c-4df5-8ed6-7a1db15abd23" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/clean_test_results_Project.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/clean_test_results_Project.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/clean_test_results_Project.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/clean_test_results_Project.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/roscpp_generate_messages_cpp.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/roscpp_generate_messages_cpp.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/roscpp_generate_messages_lisp.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/roscpp_generate_messages_py.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/roscpp_generate_messages_py.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/std_msgs_generate_messages_cpp.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/std_msgs_generate_messages_cpp.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/std_msgs_generate_messages_lisp.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/std_msgs_generate_messages_lisp.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/std_msgs_generate_messages_py.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/std_msgs_generate_messages_py.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/network_comms/CMakeFiles/std_msgs_generate_messages_py.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/nri/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/nri/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/nri/CMakeFiles/geometry_msgs_generate_messages_py.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/sunset_demo/CMakeFiles/_catkin_empty_exported_target.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/websocket_server/CMakeFiles/_catkin_empty_exported_target.dir/progress.make" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blender_interface/src/UDP_Listen.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kinect_aux" afterPath="$PROJECT_DIR$/src/kinect_aux" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeCache.txt" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/2.8.12.2/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/2.8.12.2/CMakeSystem.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeError.log" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeError.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeRuleHashes.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeRuleHashes.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CTestTestfile.cmake" afterPath="$PROJECT_DIR$/build/CTestTestfile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Makefile" afterPath="$PROJECT_DIR$/build/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/catkin/catkin_generated/version/package.cmake" afterPath="$PROJECT_DIR$/build/catkin/catkin_generated/version/package.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/catkin_generated/generate_cached_setup.py" afterPath="$PROJECT_DIR$/build/catkin_generated/generate_cached_setup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/catkin_generated/installspace/_setup_util.py" afterPath="$PROJECT_DIR$/build/catkin_generated/installspace/_setup_util.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/catkin_generated/order_packages.cmake" afterPath="$PROJECT_DIR$/build/catkin_generated/order_packages.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/catkin_generated/order_packages.py" afterPath="$PROJECT_DIR$/build/catkin_generated/order_packages.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/catkin_generated/setup_cached.sh" afterPath="$PROJECT_DIR$/build/catkin_generated/setup_cached.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/catkin_generated/stamps/Project/interrogate_setup_dot_py.py.stamp" afterPath="$PROJECT_DIR$/build/catkin_generated/stamps/Project/interrogate_setup_dot_py.py.stamp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/catkin_generated/stamps/Project/package.xml.stamp" afterPath="$PROJECT_DIR$/build/catkin_generated/stamps/Project/package.xml.stamp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/catkin_make.cache" afterPath="$PROJECT_DIR$/build/catkin_make.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/cmake_install.cmake" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/dynamic_tutorials/CMakeFiles/dynamic_tutorials_gencfg.dir/build.make" afterPath="$PROJECT_DIR$/build/dynamic_tutorials/CMakeFiles/dynamic_tutorials_gencfg.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/dynamic_tutorials/catkin_generated/installspace/dynamic_tutorialsConfig.cmake" afterPath="$PROJECT_DIR$/build/dynamic_tutorials/catkin_generated/installspace/dynamic_tutorialsConfig.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/dynamic_tutorials/catkin_generated/package.cmake" afterPath="$PROJECT_DIR$/build/dynamic_tutorials/catkin_generated/package.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/network_comms/Makefile" afterPath="$PROJECT_DIR$/build/network_comms/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/network_comms/catkin_generated/installspace/network_commsConfig.cmake" afterPath="$PROJECT_DIR$/build/network_comms/catkin_generated/installspace/network_commsConfig.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/network_comms/catkin_generated/package.cmake" afterPath="$PROJECT_DIR$/build/network_comms/catkin_generated/package.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/nri/Makefile" afterPath="$PROJECT_DIR$/build/nri/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/nri/catkin_generated/installspace/nriConfig.cmake" afterPath="$PROJECT_DIR$/build/nri/catkin_generated/installspace/nriConfig.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/nri/catkin_generated/package.cmake" afterPath="$PROJECT_DIR$/build/nri/catkin_generated/package.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/sunset_demo/Makefile" afterPath="$PROJECT_DIR$/build/sunset_demo/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/sunset_demo/catkin_generated/installspace/sunset_demoConfig.cmake" afterPath="$PROJECT_DIR$/build/sunset_demo/catkin_generated/installspace/sunset_demoConfig.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/sunset_demo/catkin_generated/package.cmake" afterPath="$PROJECT_DIR$/build/sunset_demo/catkin_generated/package.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/websocket_server/catkin_generated/installspace/websocket_serverConfig.cmake" afterPath="$PROJECT_DIR$/build/websocket_server/catkin_generated/installspace/websocket_serverConfig.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/websocket_server/catkin_generated/package.cmake" afterPath="$PROJECT_DIR$/build/websocket_server/catkin_generated/package.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devel/_setup_util.py" afterPath="$PROJECT_DIR$/devel/_setup_util.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devel/include/dynamic_tutorials/TutorialsConfig.h" afterPath="$PROJECT_DIR$/devel/include/dynamic_tutorials/TutorialsConfig.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devel/lib/python2.7/dist-packages/dynamic_tutorials/cfg/TutorialsConfig.py" afterPath="$PROJECT_DIR$/devel/lib/python2.7/dist-packages/dynamic_tutorials/cfg/TutorialsConfig.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devel/share/dynamic_tutorials/cmake/dynamic_tutorialsConfig.cmake" afterPath="$PROJECT_DIR$/devel/share/dynamic_tutorials/cmake/dynamic_tutorialsConfig.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devel/share/network_comms/cmake/network_commsConfig.cmake" afterPath="$PROJECT_DIR$/devel/share/network_comms/cmake/network_commsConfig.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devel/share/nri/cmake/nriConfig.cmake" afterPath="$PROJECT_DIR$/devel/share/nri/cmake/nriConfig.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devel/share/sunset_demo/cmake/sunset_demoConfig.cmake" afterPath="$PROJECT_DIR$/devel/share/sunset_demo/cmake/sunset_demoConfig.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devel/share/websocket_server/cmake/websocket_serverConfig.cmake" afterPath="$PROJECT_DIR$/devel/share/websocket_server/cmake/websocket_serverConfig.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/websocket_server/src/data.txt" afterPath="$PROJECT_DIR$/src/websocket_server/src/data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/blender_interface/src/UDP_Bridge.py" afterPath="$PROJECT_DIR$/src/blender_interface/src/UDP_Bridge.py" />
     </list>
     <ignored path="catkin_ws.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -127,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UDP_Bridge.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UDP_Bridge.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/blender_interface/src/UDP_Bridge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="15" selection-start-line="25" selection-start-column="4" selection-end-line="26" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.7955975">
+              <caret line="92" column="49" selection-start-line="92" selection-start-column="49" selection-end-line="92" selection-end-column="49" />
               <folding>
                 <element signature="e#22#34#0" expanded="true" />
               </folding>
@@ -139,11 +38,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kinect_aux_node_mod.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UDP_Listen.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/blender_interface/src/UDP_Listen.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kinect_aux_node_mod.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kinect_aux/src/kinect_aux_node_mod.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2672956">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dynamic_tutorials/src/nodes/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dynamic_tutorials/src/nodes/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -169,16 +98,17 @@
         <option value="$PROJECT_DIR$/src/nri/src/websocket_ROS_interface.py" />
         <option value="$PROJECT_DIR$/src/websocket_server/src/ws_ros.py" />
         <option value="$PROJECT_DIR$/src/network_comms/src/udp_listen.py" />
-        <option value="$PROJECT_DIR$/src/blender_interface/src/UDP_Bridge.py" />
         <option value="$PROJECT_DIR$/src/kinect_aux/src/kinect_aux_node_mod.cpp" />
+        <option value="$PROJECT_DIR$/src/blender_interface/src/UDP_Listen.py" />
+        <option value="$PROJECT_DIR$/src/blender_interface/src/UDP_Bridge.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -276,7 +206,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="websocket_server" />
+              <option name="myItemId" value="dynamic_tutorials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,11 +224,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="websocket_server" />
+              <option name="myItemId" value="dynamic_tutorials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -316,7 +250,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nri" />
+              <option name="myItemId" value="blender_interface" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,87 +268,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catkin_ws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catkin_ws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="network_comms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catkin_ws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catkin_ws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="network_comms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catkin_ws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catkin_ws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kinect_aux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catkin_ws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catkin_ws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kinect_aux" />
+              <option name="myItemId" value="blender_interface" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -424,8 +278,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -433,24 +287,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.UDP_Bridge">
-    <configuration default="false" name="watch_interface_multi_mode" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/nri/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="catkin_ws" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/nri/src/watch_interface_multi_mode.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.UDP_Listen">
     <configuration default="false" name="udp_listen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -515,6 +352,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="catkin_ws" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/blender_interface/src/UDP_Bridge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UDP_Listen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/blender_interface/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="catkin_ws" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/blender_interface/src/UDP_Listen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -642,19 +496,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.watch_interface_multi_mode" />
-      <item index="1" class="java.lang.String" itemvalue="Python.udp_listen" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ws_ros" />
-      <item index="3" class="java.lang.String" itemvalue="Python.websocket_ROS_interface" />
-      <item index="4" class="java.lang.String" itemvalue="Python.UDP_Bridge" />
+      <item index="0" class="java.lang.String" itemvalue="Python.udp_listen" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ws_ros" />
+      <item index="2" class="java.lang.String" itemvalue="Python.websocket_ROS_interface" />
+      <item index="3" class="java.lang.String" itemvalue="Python.UDP_Bridge" />
+      <item index="4" class="java.lang.String" itemvalue="Python.UDP_Listen" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.UDP_Bridge" />
-        <item index="1" class="java.lang.String" itemvalue="Python.udp_listen" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ws_ros" />
-        <item index="3" class="java.lang.String" itemvalue="Python.websocket_ROS_interface" />
-        <item index="4" class="java.lang.String" itemvalue="Python.watch_interface_multi_mode" />
+        <item index="1" class="java.lang.String" itemvalue="Python.UDP_Listen" />
+        <item index="2" class="java.lang.String" itemvalue="Python.udp_listen" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ws_ros" />
+        <item index="4" class="java.lang.String" itemvalue="Python.websocket_ROS_interface" />
       </list>
     </recent_temporary>
   </component>
@@ -694,27 +548,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18598382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25067386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32565445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="2432" y="52" width="687" height="1028" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32553408" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="2432" y="52" width="687" height="1028" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -740,27 +594,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nri/src/watch_interface_multi_mode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/network_comms/src/udp_listen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/websocket_server/src/ws.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/websocket_server/src/ws_ros.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1083,21 +916,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blender_interface/src/UDP_Bridge.py">
+    <entry file="file://$PROJECT_DIR$/src/kinect_aux/src/kinect_aux_node_mod.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="15" selection-start-line="25" selection-start-column="4" selection-end-line="26" selection-end-column="15" />
-          <folding>
-            <element signature="e#22#34#0" expanded="true" />
-          </folding>
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kinect_aux/src/kinect_aux_node_mod.cpp">
+    <entry file="file://$PROJECT_DIR$/src/dynamic_tutorials/src/nodes/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2672956">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamic_tutorials/src/nodes/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blender_interface/src/UDP_Listen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blender_interface/src/UDP_Bridge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7955975">
+          <caret line="92" column="49" selection-start-line="92" selection-start-column="49" selection-end-line="92" selection-end-column="49" />
+          <folding>
+            <element signature="e#22#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
